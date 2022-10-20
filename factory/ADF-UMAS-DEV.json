@@ -1,0 +1,9 @@
+{
+	"name": "ADF-UMAS-DEV",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1fadd60e-fa88-4ce2-a3ec-36dac0e56c53",
+		"tenantId": "ac440260-42b2-4a2b-8449-6687d64f6cef"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Shabbir_SQLDB_TableList",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADF_SQLDB_LinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

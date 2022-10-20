@@ -1,0 +1,16 @@
+{
+	"name": "LS_ONPREM_SQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=MITHUS;initial catalog=Uma_Practice_DB;user id=IntPrep",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwNGVjZWM5ZS1iYzc0LTQwNjUtOWRjMi00NDY1NTJiNWJkYTciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-SELF-HOSTED",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

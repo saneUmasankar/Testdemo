@@ -1,0 +1,17 @@
+{
+	"name": "DS_SQL_Table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ONPREM_SQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ln_acct_cc_earn"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
