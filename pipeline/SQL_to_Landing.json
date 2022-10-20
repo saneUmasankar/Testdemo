@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "SqlServerSource",
-						"sqlReaderQuery": "select batch_run,table_name,execution_start_date,execution_end_date,execution_status,error_messages,src_row_count,dest_row_count,processing_location\nfrom pipelinelog",
+						"sqlReaderQuery": "select batch_run,table_name,execution_start_date,execution_end_date,execution_status,error_messages,src_row_count,dest_row_count,processing_location\nfrom pipelinelog_githubtest",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
