@@ -1,0 +1,9 @@
+{
+	"name": "ADF-DEVOPS-PRACTICE",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "97ce1bf0-af24-4407-bc51-01fc39da718d",
+		"tenantId": "d202df2f-beee-44b6-af6a-fb6358dd30fb"
+	}
+}
